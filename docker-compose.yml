@@ -1,0 +1,8 @@
+version: "2.0"
+services:
+  server:
+    build: packages/server
+    ports:
+      - "4000:4000"
+volumes:
+  logvolume01: {}

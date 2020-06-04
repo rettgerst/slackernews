@@ -1,0 +1,20 @@
+{
+	"name": "slackernews-server",
+	"version": "1.0.0",
+	"license": "MIT",
+	"scripts": {
+		"dev": "node-dev src/index.js",
+		"start": "node src/index.js",
+		"prisma": "prisma"
+	},
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"graphql-yoga": "^1.7.0",
+		"jsonwebtoken": "^8.2.0",
+		"prisma-client-lib": "^1.31.0"
+	},
+	"devDependencies": {
+		"node-dev": "^4.0.0",
+		"prisma": "^1.31.0"
+	}
+}
